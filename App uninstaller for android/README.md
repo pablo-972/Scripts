@@ -5,7 +5,7 @@
 
 Hi there!
 
-Recently, I watched a video by Stark Privacy (https://www.youtube.com/watch?v=mKgOzjNUJ-I) that demonstrated how to uninstall apps that are normally unremovable, even for developers. I was doing this manually, so I created a script to automate the process.
+Recently, I watched a video by Stark Privacy (https://www.youtube.com/watch?v=mKgOzjNUJ-I) that demonstrated how to uninstall apps that are normally unremovable, even for developers, to get more privacy and space. I was doing this manually, so I created a script to automate the process.
 
 ## Overview
 
@@ -68,6 +68,8 @@ Afterward, restart your device to ensure all changes take effect.
 Be cautious when uninstalling essential packages. If you uninstall a critical package and then reset or power off your device without reinstalling it, you may need to unlock your device using secure boot and perform a factory reset.
 
 ### Apps & services
+
+These id's were getting by using Package Manager app for Android.
 
 There is a list with some google, microsoft, Samsung apps, etc, that are normally installed by default. If you dont want to uninstall few of them, remove it from the list, on the other hand, if you want to install some packages that dont appear in the list, just add them and execute the script. I will add more apps or services in the future, only I need to check them before including it.
 
