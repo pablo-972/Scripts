@@ -69,6 +69,8 @@ Be cautious when uninstalling essential packages. If you uninstall a critical pa
 
 ### Apps & services
 
+These id's were getting by using Package Manager app for Android.
+
 There is a list with some google, microsoft, Samsung apps, etc, that are normally installed by default. If you dont want to uninstall few of them, remove it from the list, on the other hand, if you want to install some packages that dont appear in the list, just add them and execute the script. I will add more apps or services in the future, only I need to check them before including it.
 
 ---
