@@ -5,7 +5,7 @@
 
 Hi there!
 
-Recently, I watched a video by Stark Privacy (https://www.youtube.com/watch?v=mKgOzjNUJ-I) that demonstrated how to uninstall apps that are normally unremovable, even for developers. I was doing this manually, so I created a script to automate the process.
+Recently, I watched a video by Stark Privacy (https://www.youtube.com/watch?v=mKgOzjNUJ-I) that demonstrated how to uninstall apps that are normally unremovable, even for developers, to get more privacy and space. I was doing this manually, so I created a script to automate the process.
 
 ## Overview
 
