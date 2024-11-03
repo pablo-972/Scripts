@@ -7,8 +7,8 @@ apt update; apt upgrade;
 curl https://raw.githubusercontent.com/pablo-972/Scripts/refs/heads/main/Kali%20Setup/.zshrc > ~/.zshrc
 
 #DIRECTORIES
-mkdir Tools;
-mkdir HTB;
+mkdir ~/Tools;
+mkdir ~/HTB;
 
 #SOME APPS & TOOLS
 #xclip
