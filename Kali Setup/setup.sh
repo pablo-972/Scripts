@@ -4,11 +4,7 @@
 apt update; apt upgrade;
 
 #ZSH
-git clone X ;
-
-rm .zshrc;
-cp X/.zshrc .;
-rm -rfd X;
+curl https://raw.githubusercontent.com/pablo-972/Scripts/refs/heads/main/Kali%20Setup/.zshrc > ~/.zshrc
 
 #DIRECTORIES
 mkdir Tools;
