@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #SETUP FOR KALI LINUX ~
+echo -e "\e[33mSETUP FOR KALI LINUX ~\e[0m";
 apt update; apt upgrade;
 
 #ZSH
@@ -31,4 +32,5 @@ rm protonvpn-stable-release_1.0.4_all.deb;
 #Ghidra
 apt install ghidra;
 
-chistory;
+echo -e "\e[31mSETUP FINISHED!! ENJOY ;)\e[0m";
+
