@@ -15,6 +15,41 @@
             font-family: 'Arial', sans-serif;
             text-align: center;
         }
+        h1{
+            font-size: 2vw;
+        }
+        iframe{
+            visibility: hidden;
+        }
+        button {
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        #boton-si {
+            background-color: #28a745; 
+            color: #fff;
+        }
+
+        #boton-si:hover {
+            background-color: #218838; 
+            box-shadow: 0 0 10px rgba(40, 167, 69, 0.7);
+        }
+
+        
+        #boton-no {
+            background-color: #dc3545; 
+            color: #fff;
+        }
+
+        #boton-no:hover {
+            background-color: #c82333; 
+            box-shadow: 0 0 10px rgba(220, 53, 69, 0.7);
+        }
         #options {
             display: flex;
             flex-direction: column;
@@ -48,8 +83,8 @@
     <div id="initial">
         <h1>¿Quieres activar el audio?</h1>
         <div id="options">
-            <button onclick="startCountdown()">Sí</button>
-            <button onclick="startCountdown()">No</button>
+            <button id="boton-si" onclick="startCountdown()">Sí</button>
+            <button id="boton-no" onclick="startCountdown()">No</button>
         </div>
     </div>
         
@@ -64,11 +99,11 @@
             document.getElementById('countdown').style.display = 'block';
             let count = 3; 
             const countdownElement = document.getElementById('countdown');
-            countdownElement.innerText = `Estás preparado...? ${count}`;
+            countdownElement.innerText = `Estás preparado...?`;
 
             const interval = setInterval(() => {
                 count--;
-                countdownElement.innerText = `Estás preparado...? ${count}`;
+                countdownElement.innerText = `Estás preparado...?`;
                 if (count <= 0) {
                     clearInterval(interval);
                     showJumpscare();
@@ -80,6 +115,7 @@
             document.getElementById('countdown').style.display = 'none';
             const jumpscare = document.getElementById('jumpscare');
             const video = document.getElementById('video');
+            const final = document.getElementById('final');
 
             jumpscare.style.display = 'block';
             video.style.display = 'block'; 
@@ -99,12 +135,16 @@
                 player.stopVideo(); 
             }, 5000); 
             
-            showFinal();
+            setTimeout(() => {
+                showFinal();
+            }, 1000);
+            
         }
 
         function showFinal(){
             document.getElementById('initial').style.display = 'none';
             document.getElementById('final').style.display = 'block';
+            
         }
     </script>
     <script src="https://www.youtube.com/iframe_api"></script>
