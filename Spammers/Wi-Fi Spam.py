@@ -45,7 +45,7 @@ def create_wifi():
 
 	frame = RadioTap()/dot11/beacon/e_SSID 
 
-	sendp(frame, inter=0.1, iface=interface, loop=1) 
+	sendp(frame, inter=0.1, iface=interface, loop=1, verbose=0) 
 
 
 threads = []
@@ -60,6 +60,6 @@ for i in range(50):
 		thread.start()
 	
 for thread in threads:
-	thread.join()
+		thread.join()
 
 
