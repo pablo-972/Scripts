@@ -1,6 +1,8 @@
 import threading
-from scapy.all import *
+from scapy.all import Dot11, Dot11Beacon, Dot11Elt, RadioTap, sendp, RandMAC
 import random
+import string
+import time
 
 class colors:
     YELLOW = "\033[93m"  
@@ -48,8 +50,11 @@ def create_wifi():
 
 threads = []
 
+print(f"[+] Spammer working")
+print(f"[?] Send CTRL+C twice to stop the spammer")
+
 # Change the range to your choice
-for i in range(200):
+for i in range(50):
 		thread = threading.Thread(target=create_wifi)
 		threads.append(thread)
 		thread.start()
