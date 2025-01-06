@@ -23,6 +23,9 @@ wget -O code.deb 'https://code.visualstudio.com/sha/download?build=stable&os=lin
 dpkg -i code.deb;
 rm code.deb;
 
+#SecLists
+git clone https://github.com/danielmiessler/SecLists.git /home/kali/Tools
+
 #Protonvpn
 wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.4_all.deb;
 sudo dpkg -i ./protonvpn-stable-release_1.0.4_all.deb && sudo apt update;
@@ -30,7 +33,7 @@ sudo apt install proton-vpn-gnome-desktop;
 rm protonvpn-stable-release_1.0.4_all.deb;
 
 #Ghidra
-apt install ghidra;
+#apt install ghidra;
 
 echo -e "\e[31mSETUP FINISHED!! ENJOY ;)\e[0m";
 
