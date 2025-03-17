@@ -19,7 +19,7 @@ print(colors.BLUE +
 "                                   |_|                       " + colors.END)
 print(colors.YELLOW + "\n==========================================================\n" + colors.END)
 
-print("BY DYGRAL\n")
+print("By Sulkaz\n")
 
 time.sleep(5)
 
