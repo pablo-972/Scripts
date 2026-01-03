@@ -13,8 +13,10 @@ To get started, follow these general steps:
    cd scripts
 ```
 2. **Check the individual script folders**: each script is organized into its own directory, and inside each directory, you’ll find a `README.md` file that provides specific instructions for that script.
-3. **Install dependencies (if necessary)**: some scripts may require specific dependencies or libraries. These are usually listed in the corresponding `README.md` or in comments at the top of the script.
-4. **Run the script**: each script is intended to be run independently. Follow the instructions in the individual `README.md` of each script to execute it properly.
+3. 
+4. **Install dependencies (if necessary)**: some scripts may require specific dependencies or libraries. These are usually listed in the corresponding `README.md` or in comments at the top of the script.
+5. 
+6. **Run the script**: each script is intended to be run independently. Follow the instructions in the individual `README.md` of each script to execute it properly.
 
 
 
