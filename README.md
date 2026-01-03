@@ -7,8 +7,7 @@ The scripts included here cover a range of use cases, from automation tasks and 
 ## Getting Started
 To get started, follow these general steps:
 
-1. **Clone the repository**:
-First, clone the repository to your local machine.
+1. **Clone the repository**: first, clone the repository to your local machine.
 ```bash
    git clone https://github.com/yourusername/scripts.git
    cd scripts
