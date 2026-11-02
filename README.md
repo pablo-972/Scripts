@@ -9,7 +9,7 @@ To get started, follow these general steps:
 
 1. **Clone the repository**: first, clone the repository to your local machine.
 ```bash
-   git clone https://github.com/yourusername/scripts.git
-   cd scripts
+   git clone https://github.com/pablo-972/Scripts
+   cd Scripts
 ```
 2. **Check the individual script folders**: each script is organized into its own directory, and inside each directory, you’ll find a `README.md` file that provides specific instructions for that script.

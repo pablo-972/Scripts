@@ -1,6 +1,4 @@
 
----
-
 # Wi-Fi Spam Script
 
 This script allows you to create multiple Wi-Fi networks using Python and the Scapy library. It leverages Airmon-ng to set the network interface into monitor mode, enabling the creation of fake access points.
@@ -43,7 +41,7 @@ The script generates random SSIDs for the Wi-Fi networks and allows you to speci
 - If you encounter permission issues, you may need to run the script with `sudo`:
 
   ```bash
-  sudo python your_script_name.py
+  sudo python wifi_spam.py
   ```
 
 - If you cannot run as `sudo`, consider creating a Python virtual environment, installing the required libraries, and then executing the script as `sudo`.

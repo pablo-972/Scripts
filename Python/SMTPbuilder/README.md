@@ -17,5 +17,5 @@ This script is written in Python 3. Make sure you have Python 3 installed on you
 ## Usage
 
 ```bash
-python SMTPbuilder.py -l <user_list.txt> -d <domain.com> -o <output_file.txt>
+python smtp_builder.py -l <user_list.txt> -d <domain.com> -o <output_file.txt>
 ```

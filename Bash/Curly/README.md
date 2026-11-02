@@ -8,18 +8,13 @@ This Bash script allows you to enumerate routes over a specific URL. The script 
 
 The following arguments are accepted by the script:
 
-- **`-u <url>`**: The base URL to which the routes from the file will be added.
-  - Example: `-u https://www.example.com`
-  
-- **`-l <route_list>`**: The text file that contains the routes to be enumerated.
-  - Example: `-l routes.txt`
-  
-- **`-c`**: Display the HTTP response content (default).
-  
-- **`-s`**: Display only the HTTP status code of the response.
-  
-- **`-h`**: Show the help message with the available arguments.
-
+| Argument | Description |
+| --- | --- |
+| `-u <url>` | Set the base URL (e.g., `[https://www.example.com]`) |
+| `-l <file>` | Provide a file containing the list of routes to enumerate (e.g., `routes.txt`) |
+| `-c` | Display full HTTP response content (default) |
+| `-s` | Display HTTP response status code only |
+| `-h` | Show help message |
 
 ## Installation
 

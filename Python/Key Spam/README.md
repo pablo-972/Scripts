@@ -31,7 +31,7 @@ The script runs in a separate thread, allowing it to continuously send keystroke
 1. **Run the script**:
 
    ```bash
-   python your_script_name.py
+   python key_spam.py
    ```
 
 2. **Control the script**: 
@@ -42,7 +42,7 @@ The script runs in a separate thread, allowing it to continuously send keystroke
 - **Permissions**: Depending on your operating system, you may need to run the script with elevated privileges. On Linux, you can use `sudo`:
 
   ```bash
-  sudo python your_script_name.py
+  sudo python key_spam.py
   ```
 - If you cannot run as `sudo`, consider creating a Python virtual environment, installing the required libraries, and then executing the script as `sudo`.
 
@@ -50,8 +50,4 @@ The script runs in a separate thread, allowing it to continuously send keystroke
 
 - **Interruptions**: The script is designed to run in the background and can be stopped at any time by pressing the `s` key.
 
-If you have any questions or need further assistance, feel free to reach out!
 
---- 
-
-If you have any questions or need further assistance, feel free to reach out!
