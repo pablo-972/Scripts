@@ -11,7 +11,7 @@ pip install pynput
 ```
 
 
-## 1. Client Variants (`keylogger.py` vs `keylogger_log.py`)
+## 1. Client Variants
 
 ### Option A: Instant Stream (`keylogger.py`)
 
